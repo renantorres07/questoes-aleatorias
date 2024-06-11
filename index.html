@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questões Aleatórias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="flashcard" class="flashcard">
+            <div class="pergunta"></div>
+            <div class="respostas"></div>
+            <div class="mensagem"></div>
+            <button id="botao-proxima">Próxima Pergunta</button>
+            <button id="botao-resultados">Resultados</button>
+            <button id="botao-resetar">Resetar</button>
+            <button id="botao-embaralhar">Embaralhar</button>
+            <button id="botao-mais-info">Mais Informações</button>
+        </div>
+        <div id="resultados" class="hidden">
+            <p>Corretas: <span id="contagem-correta">0</span></p>
+            <p>Erradas: <span id="contagem-erradas">0</span></p>
+        </div>
+        <div id="informacoes" class="hidden">
+            <div class="conteudo-informacoes"></div>
+            <button id="botao-voltar">Voltar</button>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
